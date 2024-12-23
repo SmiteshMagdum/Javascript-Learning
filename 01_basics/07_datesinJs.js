@@ -15,7 +15,7 @@ let myCraetedDate = new Date ( "07-25-2006")
 
 console.log(myCraetedDate.toLocaleString());
 
-let myTimeStamp = Date.now()
+let myTimeStamp = (Date.now().toLocaleString())
 // console.log(myTimeStamp);
 // console.log(myCraetedDate.getTime());
 // console.log(Math.floor(Date.now()/1000));
