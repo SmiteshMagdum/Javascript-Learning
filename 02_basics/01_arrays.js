@@ -1,42 +1,64 @@
 // array
 
-const myarr =[0,1,2,3,4,5]
-const myHeros = ["shaktiman","spiderman "]
-const  myArr2 = new Array (1,2,3,4)
-
-//console.log(myHeros[1])
-
-//Array methods 
-
-// myarr.push(6)
-// myarr.push(7)
-// myarr.pop()
+const myArr = [0, 1, 2, 3, 4, 5]
+const myHeors = ["shaktiman", "naagraj"]
 
 
+//another method to declare array 
+const myArr2 = new Array(1, 2, 3, 4)
 
-//myarr.unshift(9)
-// myarr.shift()
+// to acess array value
+ console.log(myArr[1]);
+
+/*   Array methods  */
 
 
-// console.log(myarr.includes(9));
-// console.log(myarr.indexOf(3));
+// add a new value in array 
+ myArr.push(6)
+ console.log(myArr);
+ // -> [ 0,1,2,3,4,5,8]
 
-// const newArr = myarr.join()
-// console.log(myarr);
-// console.log(typeof newArr);
 
-//slice , splice 
+// remove the last value of the array 
+myArr.pop()
+console.log(myArr); 
+// -> [0,1,2,3,4,5,]
 
-console.log("A",myarr);
-const myn1 = myarr.slice(1,  3)
+// Insert the valuee in the first index box 
+ myArr.unshift(9)
+console.log(myArr);
+// -> [8,0,1,2,3,4,5]
 
-console.log(myn1);
-console.log("B", myarr);
 
-const myn2 = myarr.splice(1, 3)
-console.log("c", myarr);
+// Remove the value in the fist index box
+ myArr.shift()
+console.log(myArr);
+// -> [0,1,2,3,4,5]
+
+//asking question that 9 is  includes in this array 
+// indexof means the value is  in which postion in array 
+console.log(myArr.includes(9)); // -> false 
+console.log(myArr.indexOf(3)); // -> 3
+
+
+// . join adds all the element of array into string 
+ const newArr = myArr.join()
+
+ console.log(myArr); // -> [0,1,2,3,4,5,]
+ console.log( newArr);// -> 012345
+console.log(typeof newArr ); // -> string 
+
+
+ //slice, splice
+ 
+ // slice - return a copy of an section of an array 
+console.log("A ", myArr); // -> A [0,1,2,3,4,5,]  [1,2]
+const myn1 = myArr.slice(1, 3)
+
+console.log(myn1);  // -> B [0,1,2,3,4,5]
+console.log("B ", myArr);
+
+// splice - removes elements from the array 
+const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr); // C [0,4,5,] [1,2,3]
 console.log(myn2);
-
-
-//[0,1,2,3,4,5]
-
