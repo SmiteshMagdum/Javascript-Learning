@@ -28,7 +28,7 @@ console.log(Jsuser[mySym]);
 // -> myKey1 
 
 Jsuser.email = "smitesh@chatgpt.com "
-//Object.freeze(Jsuser)
+Object.freeze(Jsuser)
 Jsuser.email = "smitesh@infosys.com"
 console.log(Jsuser);
 // -> after frezze value doesnot change 
