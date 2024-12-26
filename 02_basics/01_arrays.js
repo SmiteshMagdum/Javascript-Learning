@@ -60,5 +60,5 @@ console.log("B ", myArr);
 
 // splice - removes elements from the array 
 const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr); // C [0,4,5,] [1,2,3]
+console.log("C ", myArr); // C -> [0,4,5,] [1,2,3]
 console.log(myn2);
