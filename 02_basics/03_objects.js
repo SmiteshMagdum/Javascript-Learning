@@ -3,6 +3,8 @@
 //object literals 
 //Object.create => singelton  
 
+
+//this is object literals 
 const mySym = Symbol("Key1")
 
 
@@ -30,9 +32,8 @@ console.log(Jsuser[mySym]);
 Jsuser.email = "smitesh@chatgpt.com "
 <<<<<<< HEAD
 //Object.freeze(Jsuser)
-=======
+
 Object.freeze(Jsuser)
->>>>>>> 0cfa419f26fdd2c11e5870e34592db4a4de325e6
 Jsuser.email = "smitesh@infosys.com"
 console.log(Jsuser);
 // -> after frezze value doesnot change 
