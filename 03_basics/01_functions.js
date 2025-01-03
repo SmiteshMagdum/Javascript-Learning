@@ -12,7 +12,7 @@
 // }
 // sayMyNAme()
 
-// function addTwoNUmber(number1 ,number2){  // the value in () is parameters 
+// function addTwoNUmber(number1 ,number2){         // the value in () is parameters 
         
 //     console.log(number1 + number2 );
     
