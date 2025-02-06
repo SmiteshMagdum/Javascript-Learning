@@ -32,3 +32,4 @@ console.log(newDate.getDay);
  
     
 // })
+console.log(myDate);

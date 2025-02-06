@@ -36,7 +36,7 @@ const temperature = 41
 
 
 const userLoggedIn = true
-const debitCard = true 
+const debitCard = false 
  const loggedInFromGoogle = false
  const loggedInFromEmail = true 
  

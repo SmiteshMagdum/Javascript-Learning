@@ -3,17 +3,17 @@ const repoCount = 50
 
 //console.log(name + repoCount  +  "value"); 
 
-console.log(`Hello my name is ${name} and my repo Count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and my repo Count is ${repoCount}`);
 
-const gameName = new String('Smitesh-hc')
+ const gameName = new String('Smitesh-hc')
 
-console.log(gameName[0]);
-console.log(gameName.__proto__);
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
 
 
-console.log(gameName.length);
-//console.log(gameName. toUppercase()); 
-console.log(gameName.indexOf('h'));
+// console.log(gameName.length);
+// //console.log(gameName. toUppercase()); 
+ console.log(gameName.indexOf('h'));
 
 const newString = gameName.substring(0,4)
 console.log(newString);
@@ -34,3 +34,12 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('smitesh'))
 
 console.log(gameName.split ('-'));
+
+let multiLine = `This is
+a multi-line
+string.`;
+console.log(multiLine);
+
+let str = "JavaScript";
+console.log(str.indexOf("Script")); // Output: 4
+console.log(str.includes("Java")); // Output: true
