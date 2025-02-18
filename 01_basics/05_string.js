@@ -12,7 +12,7 @@ const repoCount = 50
 
 
 // console.log(gameName.length);
-// //console.log(gameName. toUppercase()); 
+//console.log(gameName. toUppercase()); 
  console.log(gameName.indexOf('h'));
 
 const newString = gameName.substring(0,4)

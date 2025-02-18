@@ -16,7 +16,7 @@ const temperature = 41
 // if (score>100 ){
 //     const power = "fly"
 //     console.log(`user power: ${power}`);
-    
+
 // }
 // console.log(`user power: ${power}`);
 
@@ -35,20 +35,47 @@ const temperature = 41
 // }
 
 
-const userLoggedIn = true
-const debitCard = false 
- const loggedInFromGoogle = false
- const loggedInFromEmail = true 
- 
-if (userLoggedIn && debitCard && 2==2) {
+// const userLoggedIn = true
+// const debitCard = false 
+//  const loggedInFromGoogle = false
+//  const loggedInFromEmail = true 
 
-    console.log("alloe to buy course ");
+// if (userLoggedIn && debitCard && 2==2) {
+
+//     console.log("alloe to buy course ");
+
+
+// }
+
+// if (loggedInFromGoogle || loggedInFromEmail ) {
+//     console.log("USER HAS LOGGED IN ");
+// }
+
+
+// function isleapyear(y){
+// if (y%400==0 ||y%4 ===0 && y%100!==0 ) {
+//     return true;
+
+// }else{
+//     return false;
+
+// }
+// }
+// console.log(isleapyear);
+
+// function gretestNumber(a,b,c){
+//     if(a>=b && a>=c) {
+//         return true;
+// }elseif (b>=a && b>=c) {
+//     return true;
+// } else {
+//     return true;
+// }
+// console.log(gretestNumber);
+
+let str = '*'
+for (let i = 0; i <= str; i++) {
+    console.log(str);
     
     
 }
-
-if (loggedInFromGoogle || loggedInFromEmail ) {
-    console.log("USER HAS LOGGED IN ");
-}
-
-
