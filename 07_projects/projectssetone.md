@@ -74,7 +74,7 @@ setInterval(function () {
 }, 1000);
 
  ```
- ##project 5 solution 
+ ## project 5 solution 
  ```Javascript
  const insert = document.getElementById('insert');
 
