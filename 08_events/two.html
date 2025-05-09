@@ -10,26 +10,28 @@
 
 <body style="background-color: black; color:#fdfafa">
     <h1>Chai aur code</h1>
-    <button id="stop">Stop</button> <!-- Removed extra space in id -->
+    <button id="stop">Stop</button> 
 
     
 </body>
 <script>
-    const saySmitesh = function(){
-        console.log("smitesh");
+    saySmitesh = function(){
+        console.log("Smitesh");
         
     }
-    const changeText =function () {
-        document.querySelector('h1').innerHTML="best js series"
+    const changeText = function () {
+        document.querySelector('h1').innerHTML='best Javascript series  ' 
+    }
 
-        
-    }
-    const changeMe = setTimeout(changeText ,2000);
-    document.querySelector('#Stop').addEventListener('click'function(){
+
+  let changeMe =   setTimeout(changeText,  3000)
+
+     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
-        console.log("STopped");
+        console.log("STOP");
         
-    })
+
+     })
      
 </script>
 </html>
